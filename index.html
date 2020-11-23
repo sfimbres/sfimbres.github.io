@@ -3,97 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Steven Fimbres Homepage</title>
+    <link rel="stylesheet" href=style.css>
+    <script src="https://kit.fontawesome.com/3e1047ef34.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <!-- put header bar here-->
+     <!-- header-->
+     <header>
+         <nav>
+             <ul>
+                <li class='logo'><a>SF</a></li>
+                <li><a href="./StevenFimbres_SE_Resume.docx" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+             </ul>
+         </nav>
+     </header>
+
+     <div class=banner>
+         <div class="bannerText">
+            <h1>Steven Fimbres</h1>
+            <p>Software Engineer</p>
+         </div>
+     </div>
 
      <div id="about">
-         <h2>About Me</h2>
-         <p>I am a recent graduate from UC San Deigo. I graduated with a B.S in
-             Mathematics-Computer Science and a minor in Business. I am currently
-             looking for a position as a Full-Stack Software Engineer. 
-         </p>
+         <h1>About Me</h1>
+         <!--add image here with a border-radius 80% -->
+         <!--<img src="./images/SF.jpg" alt="" id="me"> -->
+         <div class="project">
+            <p class="description spacing spacingTop">Hello! I am Steven Fimbres. I am a recent graduate from UC San Diego. I graduated with a B.S in Mathematics-Computer Science and a minor in Business. I am currently looking for an entry-level position as a Full-Stack Software Engineer. Feel free to check out my projects below or contact me at any time.
+            </p>
+            <br>
+            <p class="description spacing">
+                Some of my favorite hobbies include attending concerts, playing video games, exercising, and trying new food spots. I love watching and playing sports (mostly baseball, basketball, and football). Cats are my favorite animal. I love watching comedies. My favorite genre of music is alternative rock. Lastly, but not least, I am a die-hard In-n-Out fan.
+            </p>
+         </div>
      </div>
 
      <div id='education'>
-         <h2>Education</h2>
-         <h3>School</h3>
-         <p>University of California, San Diego</p>
-         <h3>Major</h3>
-         <p>Mathematics-Computer Science</p>
-         <h3>Minor</h3>
-         <p>Business (Rady School of Management)</p>
-         <h3>GPA</h3>
-         <p>3.529</p>
-
-         <br/>
-
-         <h3>Courses</h3>
-         <!--list courses in section of cs/math/business-->
-         <h4>Computer Science</h4>
-         <ul>
-             <li>CSE 3. Fluency in Information Technology</li>
-             <li>CSE 8A. Introduction to Computer Science: Java I</li>
-             <li>CSE 8B. Introduction to Computer Science: Java II</li>
-             <li>CSE 12. Basic Data Structures and Object-Oriented Design</li>
-             <li>CSE 15L. Software Tools and Techniques Laboratory</li>
-             <li>CSE 21. Mathematics for Algorithms and Systems</li>
-             <li>CSE 30. Computer Organization and Systems Programming</li>
-             <li>CSE 100. Advanced Data Structures</li>
-             <li>CSE 101. Design and Analysis of Algorithms</li>
-             <li>CSE 105. Theory of Computability</li>
-             <li>CSE 110. Software Engineering</li>
-             <li>CSE 130. Programming Languages: Principles and Paradigms</li>
-         </ul>
-         <h4>Mathematics</h4>
-         <ul>
-            <li>MATH 15A. Introduction to Discrete Mathematics</li>
-            <li>MATH 18. Linear Algebra</li>
-            <li>MATH 20A. Calculus for Science and Engineering </li>
-            <li>MATH 20B. Calculus for Science and Engineering</li>
-            <li>MATH 20C. Calculus and Analytic Geometry for Science and Engineering </li>
-            <li>MATH 20D. Introduction to Differential Equations</li>
-            <li>MATH 20E. Vector Calculus </li>
-            <li>MATH 103A. Modern Algebra I</li>
-            <li>MATH 103B. Modern Algebra II </li>
-            <li>MATH 109. Mathematical Reasoning</li>
-            <li>MATH 157. Introduction to Mathematical Software</li>
-            <li>MATH 170A. Introduction to Numerical Analysis: Linear Algebra</li>
-            <li>MATH 170B. Introduction to Numerical Analysis: Approximation and Nonlinear Equations</li>
-            <li>MATH 180A. Introduction to Probability</li>
-            <li>MATH 184. Enumerative Combinatorics</li>
-
-        </ul>
-         <h4>Business</h4>
-         <ul>
-            <li>MGT 16. Personal Ethics at Work</li>
-            <li>MGT 45. Principles of Accounting</li>
-            <li>MGT 103. Product Marketing and Management</li>
-            <li>MGT 112. Global Business Strategy</li>
-            <li>MGT 181. Enterprise Finance</li>
-        </ul>
          
-         <br/>
+         <h1>Education</h1>
+        <div id="ucsd">
+            <h3>University of California, San Diego</h3>
+            <h3>Mathematics-Computer Science</h3>
+            <h3>Business Minor (Rady School of Management)</h3>
+            <h3>GPA: 3.529</h3>
+        </div>
+        
+         <hr/>
 
+         <div id="courses">
+            <h3>Courses</h3>
+            <!--list courses in section of cs/math/business-->
+            <div class="coursework">
+                <h4><a href="https://ucsd.edu/catalog/courses/CSE.html" target="_blank">Computer Science</a></h4>
+                <i class="fas fa-laptop-code fa-2x"></i>
+                <p>CSE 3. Fluency in Information Technology</p>
+                <p>CSE 8A. Introduction to Computer Science: Java I</p>
+                <p>CSE 8B. Introduction to Computer Science: Java II</p>
+                <p>CSE 12. Basic Data Structures and Object-Oriented Design</p>
+                <p>CSE 15L. Software Tools and Techniques Laboratory</p>
+                <p>CSE 21. Mathematics for Algorithms and Systems</p>
+                <p>CSE 30. Computer Organization and Systems Programming</p>
+                <p>CSE 100. Advanced Data Structures</p>
+                <p>CSE 101. Design and Analysis of Algorithms</p>
+                <p>CSE 105. Theory of Computability</p>
+                <p>CSE 110. Software Engineering</p>
+                <p>CSE 130. Programming Languages: Principles and Paradigms</p>
+    
+            </div>
+            <div class="coursework">
+                <h4><a href="https://ucsd.edu/catalog/courses/MATH.html" target="_blank">Mathematics</a></h4>
+                <i class="fas fa-calculator fa-2x"></i>
+                <p>MATH 15A. Introduction to Discrete Mathematics</p>
+                <p>MATH 18. Linear Algebra</p>
+                <p>MATH 20A. Calculus for Science and Engineering </p>
+                <p>MATH 20B. Calculus for Science and Engineering</p>
+                <p>MATH 20C. Calculus and Analytic Geometry for Science and Engineering </p>
+                <p>MATH 20D. Introduction to Differential Equations</p>
+                <p>MATH 20E. Vector Calculus </p>
+                <p>MATH 103A. Modern Algebra I</p>
+                <p>MATH 103B. Modern Algebra II </p>
+                <p>MATH 109. Mathematical Reasoning</p>
+                <p>MATH 157. Introduction to Mathematical Software</p>
+                <p>MATH 170A. Introduction to Numerical Analysis: Linear Algebra</p>
+                <p>MATH 170B. Introduction to Numerical Analysis: Approximation and Nonlinear Equations</p>
+                <p>MATH 180A. Introduction to Probability</p>
+                <p>MATH 184. Enumerative Combinatorics</p>
+            </div>
+            <div class="coursework">
+                <h4><a href="https://ucsd.edu/catalog/courses/MGT.html" target="_blank">Business</a></h4>
+                <i class="fas fa-briefcase fa-2x"></i>
+                <p>MGT 16. Personal Ethics at Work</p>
+                <p>MGT 45. Principles of Accounting</p>
+                <p>MGT 103. Product Marketing and Management</p>
+                <p>MGT 112. Global Business Strategy</p>
+                <p>MGT 181. Enterprise Finance</p>
+            </div>
+        </div>
+
+         <hr/>
+
+        <div id="certifications" >
          <h3>Certifications</h3>
-         <p>Codecademy Full-Stack Engineer (in progress)</p>
+         <p><a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Codecademy Full-Stack Engineer (in progress)</a></p>
+        </div>
      </div>
 
-     <div id='projects'>
-         <h2>Projects</h2>
-         <p><a href="https://youtu.be/TfJAYvPX7oc">Fridge Buddy</a></p>
-         <!--list projects-->
-     </div>
 
      <div id='experience'>
-         <!--languages and technologies-->
+         <h1>Experience</h1>
+         
+         <div id='projects'>
+            <h3>Projects</h3>
+            <div class="project">
+                <!--<p><a href="https://youtu.be/TfJAYvPX7oc">Fridge Buddy</a></p>-->
+                <h4>Fridge Buddy</h4>
+                <p>Node.js | Java | Firebase</p>
+                <p class="description">FridgeBuddy is a computer vision application used to detect food items and recommend recipes using modern recipe API’s. My role on this project was "Database Specialist" and my main responsibility was maintaining a Firebase database to securely store user input and account information.
+                    With FridgeBuddy, you can create and manage a Fridge, join an existing Fridge, update your Fridge inventory manually or by taking a picture of your food items, and track expiration dates so food never goes to waste! The project was implemented in a 10-person agile group and work was done remotely using GitHub version control. Android Studio was used to write code and display the application on an emulator. The front-end was written in Java and the backend used a Node.js server. The Microsoft Azure API was used to scan food items, while the Spoonacular API was used to recommend recipes.
+                    </p>
+                <a href="https://youtu.be/TfJAYvPX7oc" target="_blank"><i class="fab fa-youtube fa-3x youtube"></i></a>
+            </div>
+            <div class="project">
+                <!--https://youtu.be/5HUdL8N4A4o-->
+                <h4>Circus Frenzy</h4>
+                <p>C++ | OpenGl</p>
+                <p class="description">Circus Frenzy is an arcade style game where the user must reach their objective without being captured by Bongo, a killer clown, using classic WASD + mouse first person movement controls. The game ends when Bongo reaches the player, or the player reaches the police car at the far end of the street. This game relies heavily on lighting techniques to create a creepy atmosphere. Some of the technical features displayed throughout this project include first person camera control, particle effects, bump mapping, bloom/halo effects, and shadow mapping. This project was completed in a 2-person group with equal efforts towards creativity and coding.</p>
+                <a href="https://youtu.be/5HUdL8N4A4o" target="_blank"><i class="fab fa-youtube fa-3x youtube"></i></a>
+            </div>
+            <div class="project">
+                <!--http://acsweb.ucsd.edu/~sfimbres/index.html-->
+                <h4>CSE 3 Class Website</h4>
+                <p>HTML | CSS | JavaScript</p>
+                <p class="description">This website was created in CSE 3 and is hosted through UCSD acsweb servers. When you reach the website, click on the CSE 3 link to be taken to a directory of projects that I worked on throughout the quarter. 
+                </p>
+                <a href="http://acsweb.ucsd.edu/~sfimbres/index.html" target="_blank"><i class="fas fa-external-link-alt fa-2x"></i></a>
+            </div>
+            <div class="project">
+                <h4>Other projects include, but not limited to:</h4>
+                <div >
+                    <p>Calculator with built in parser (C/C++)</p>
+                    <p>2048 copycat (Java)</p>
+                    <p>Implementation of advanced data structures (C++)</p>
+                    <p>Sorting algorithms (C++)</p>
+                </div>
+            </div>
+            <p class="note">note: Source code for classroom projects will not be publicly available due to UCSD's Academic Integrity policy.</p>
+
+        </div>
+
+        <hr>
+
+        <div id='languages' >
+            <h3>Languages and Frameworks</h3>
+            <div class="project">
+                <i class="far fa-file-code fa-2x spacingTop"></i>
+                <p>C++</p>
+                <p>CSS</p>
+                <p>HTML5</p>
+                <p>Java</p>
+                <p>JavaScript</p>
+                <p>Node.js</p>
+                <p>OpenGL</p>
+                <p>Python</p>
+                <p>React.js</p>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div id="tech" >
+            <h3>Technologies</h3>
+            <div class="project">
+                <i class="fas fa-memory fa-2x spacingTop"></i>
+                <p>Android Studios</p>
+                <p>Command Line</p>
+                <p>Firebase</p>
+                <p>Linux/Unix Terminal</p>
+                <p>Git/Github</p>
+                <p>Vim</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div>
+            <h3>Work Experience</h3>
+            <p>Coming Soon</p>
+        </div>
      </div>
 
+     
 
 
+
+
+    <footer id='contact'>
+        <h1>Contact</h1>
+        <a href="https://www.linkedin.com/in/steven-fimbres-103a99196/" target="_blank"><i class="fab fa-linkedin fa-4x icon"></i></a>
+        <a href="https://github.com/sfimbres" target="_blank"><i class="fab fa-github-square fa-4x icon"></i></a>
+        <p>--- Created by Steven Fimbres ---</p>
+    </footer>
      <!--put footer here -->
      <!--linkedin, github, email-->
+     <!--LinkedIn: www.linkedin.com/in/steven-fimbres-103a99196-->
+     <!--Github: https://github.com/sfimbres-->
+     
      
 
 
