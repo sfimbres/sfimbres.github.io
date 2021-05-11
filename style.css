@@ -1,10 +1,17 @@
 html {
     text-align: center;
-    font-family: "Proxima Nova", serif;
+    font-family: "Proxima Nova", "Arial", serif;
 }
 
 body {
-    margin: 0 0;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin-top: 0;
+    padding-top: 20px;
+    border-top: 1px solid white;
 }
 
 h1{
@@ -47,9 +54,24 @@ h1{
     font-size: 72px;
 }
 
-.banner p {
+.name{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.name h1{
+    padding-top: 20px;
+    margin: 0;
+    color: white;
+    font-size: 72px;
+}
+
+.name p {
     color: white;
     font-size: 40px;
+    margin: 0;
 }
 
 nav ul {
@@ -91,14 +113,14 @@ header {
 }
 
 footer {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     margin: 0 auto;
     padding: 1px 0 10px 0;
 }
 
 footer p {
-    margin: 40px 0 0 0;
+    padding: 40px 0 0 0;
 }
 
 nav a {
@@ -113,10 +135,23 @@ nav a {
 }
 
 #experience {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
 }
 
+#experience a{
+    color: white;
+}
 
+#portfolio {
+    margin-bottom: 0px;
+}
+
+#contact {
+    margin-top: 0px;
+}
 
 a {
     text-decoration: none;
@@ -142,6 +177,16 @@ a {
     border-radius: 0%;
     border: 1px solid black;
     box-shadow: -0px 5px 5px gray;
+}
+
+.ed {
+    color:white;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 0;
+    border-radius: 0%;
+    border: 1px solid white;
+    box-shadow: -0px 5px 5px whitesmoke;
 }
 
 .coursework{
@@ -194,7 +239,7 @@ hr {
 }
 
 .icon {
-    color: white;
+    color: black;
 }
 
 h4 a{
@@ -209,6 +254,11 @@ h4 a{
 .indent {
     font-size: .8em;
 }
+
+.space-bottom {
+    padding-bottom: 10px; 
+}
+
 
 
 @media only screen and (max-width: 700px){
